@@ -1,0 +1,18 @@
+{
+    "Vehicles": [{
+        "make": "Honda",
+        "model": "Civic RS",
+        "year": 2018
+    },
+    {
+        "make": "Audi",
+        "model": "S5",
+        "year": 2019
+    },
+    {
+        "make": "BMW",
+        "model": "X6",
+        "year": 2017
+    }
+    ]
+}

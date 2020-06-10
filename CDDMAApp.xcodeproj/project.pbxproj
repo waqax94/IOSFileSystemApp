@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB49555A245B8B41003C52AF /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EB495559245B8B41003C52AF /* Data.json */; };
+		EB49555C245B9138003C52AF /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49555B245B9138003C52AF /* Vehicle.swift */; };
+		EB49555E245B93F1003C52AF /* DataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49555D245B93F1003C52AF /* DataProcessor.swift */; };
+		EB495562245BA0CB003C52AF /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB495561245BA0CA003C52AF /* VehicleList.swift */; };
+		EB499ABA245C98A80076E26C /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB499AB9245C98A80076E26C /* DataCell.swift */; };
+		EB73E821245B83BD0054A54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73E820245B83BD0054A54F /* AppDelegate.swift */; };
+		EB73E823245B83BD0054A54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73E822245B83BD0054A54F /* ViewController.swift */; };
+		EB73E826245B83BD0054A54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB73E824245B83BD0054A54F /* Main.storyboard */; };
+		EB73E829245B83BD0054A54F /* CDDMAApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB73E827245B83BD0054A54F /* CDDMAApp.xcdatamodeld */; };
+		EB73E82B245B83BE0054A54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB73E82A245B83BE0054A54F /* Assets.xcassets */; };
+		EB73E82E245B83BE0054A54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB73E82C245B83BE0054A54F /* LaunchScreen.storyboard */; };
+		EB73E839245B83BE0054A54F /* CDDMAAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73E838245B83BE0054A54F /* CDDMAAppTests.swift */; };
+		EB73E844245B83BE0054A54F /* CDDMAAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73E843245B83BE0054A54F /* CDDMAAppUITests.swift */; };
+		EB89138324624E350024D661 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB89138224624E350024D661 /* FormViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB73E835245B83BE0054A54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB73E815245B83BD0054A54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB73E81C245B83BD0054A54F;
+			remoteInfo = CDDMAApp;
+		};
+		EB73E840245B83BE0054A54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB73E815245B83BD0054A54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB73E81C245B83BD0054A54F;
+			remoteInfo = CDDMAApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB495559245B8B41003C52AF /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		EB49555B245B9138003C52AF /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		EB49555D245B93F1003C52AF /* DataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProcessor.swift; sourceTree = "<group>"; };
+		EB495561245BA0CA003C52AF /* VehicleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
+		EB499AB9245C98A80076E26C /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		EB73E81D245B83BD0054A54F /* CDDMAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDDMAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB73E820245B83BD0054A54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB73E822245B83BD0054A54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB73E825245B83BD0054A54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB73E828245B83BD0054A54F /* CDDMAApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDDMAApp.xcdatamodel; sourceTree = "<group>"; };
+		EB73E82A245B83BE0054A54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB73E82D245B83BE0054A54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB73E82F245B83BE0054A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB73E834245B83BE0054A54F /* CDDMAAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDDMAAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB73E838245B83BE0054A54F /* CDDMAAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDDMAAppTests.swift; sourceTree = "<group>"; };
+		EB73E83A245B83BE0054A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB73E83F245B83BE0054A54F /* CDDMAAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDDMAAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB73E843245B83BE0054A54F /* CDDMAAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDDMAAppUITests.swift; sourceTree = "<group>"; };
+		EB73E845245B83BE0054A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB89138224624E350024D661 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB73E81A245B83BD0054A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E831245B83BE0054A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E83C245B83BE0054A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB73E814245B83BD0054A54F = {
+			isa = PBXGroup;
+			children = (
+				EB73E81F245B83BD0054A54F /* CDDMAApp */,
+				EB73E837245B83BE0054A54F /* CDDMAAppTests */,
+				EB73E842245B83BE0054A54F /* CDDMAAppUITests */,
+				EB73E81E245B83BD0054A54F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB73E81E245B83BD0054A54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB73E81D245B83BD0054A54F /* CDDMAApp.app */,
+				EB73E834245B83BE0054A54F /* CDDMAAppTests.xctest */,
+				EB73E83F245B83BE0054A54F /* CDDMAAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB73E81F245B83BD0054A54F /* CDDMAApp */ = {
+			isa = PBXGroup;
+			children = (
+				EB73E820245B83BD0054A54F /* AppDelegate.swift */,
+				EB73E822245B83BD0054A54F /* ViewController.swift */,
+				EB73E824245B83BD0054A54F /* Main.storyboard */,
+				EB73E82A245B83BE0054A54F /* Assets.xcassets */,
+				EB73E82C245B83BE0054A54F /* LaunchScreen.storyboard */,
+				EB73E82F245B83BE0054A54F /* Info.plist */,
+				EB73E827245B83BD0054A54F /* CDDMAApp.xcdatamodeld */,
+				EB495559245B8B41003C52AF /* Data.json */,
+				EB495561245BA0CA003C52AF /* VehicleList.swift */,
+				EB49555B245B9138003C52AF /* Vehicle.swift */,
+				EB49555D245B93F1003C52AF /* DataProcessor.swift */,
+				EB499AB9245C98A80076E26C /* DataCell.swift */,
+				EB89138224624E350024D661 /* FormViewController.swift */,
+			);
+			path = CDDMAApp;
+			sourceTree = "<group>";
+		};
+		EB73E837245B83BE0054A54F /* CDDMAAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB73E838245B83BE0054A54F /* CDDMAAppTests.swift */,
+				EB73E83A245B83BE0054A54F /* Info.plist */,
+			);
+			path = CDDMAAppTests;
+			sourceTree = "<group>";
+		};
+		EB73E842245B83BE0054A54F /* CDDMAAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB73E843245B83BE0054A54F /* CDDMAAppUITests.swift */,
+				EB73E845245B83BE0054A54F /* Info.plist */,
+			);
+			path = CDDMAAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB73E81C245B83BD0054A54F /* CDDMAApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB73E848245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAApp" */;
+			buildPhases = (
+				EB73E819245B83BD0054A54F /* Sources */,
+				EB73E81A245B83BD0054A54F /* Frameworks */,
+				EB73E81B245B83BD0054A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDDMAApp;
+			productName = CDDMAApp;
+			productReference = EB73E81D245B83BD0054A54F /* CDDMAApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB73E833245B83BE0054A54F /* CDDMAAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB73E84B245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAAppTests" */;
+			buildPhases = (
+				EB73E830245B83BE0054A54F /* Sources */,
+				EB73E831245B83BE0054A54F /* Frameworks */,
+				EB73E832245B83BE0054A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB73E836245B83BE0054A54F /* PBXTargetDependency */,
+			);
+			name = CDDMAAppTests;
+			productName = CDDMAAppTests;
+			productReference = EB73E834245B83BE0054A54F /* CDDMAAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB73E83E245B83BE0054A54F /* CDDMAAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB73E84E245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAAppUITests" */;
+			buildPhases = (
+				EB73E83B245B83BE0054A54F /* Sources */,
+				EB73E83C245B83BE0054A54F /* Frameworks */,
+				EB73E83D245B83BE0054A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB73E841245B83BE0054A54F /* PBXTargetDependency */,
+			);
+			name = CDDMAAppUITests;
+			productName = CDDMAAppUITests;
+			productReference = EB73E83F245B83BE0054A54F /* CDDMAAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB73E815245B83BD0054A54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Waqas Waheed";
+				TargetAttributes = {
+					EB73E81C245B83BD0054A54F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EB73E833245B83BE0054A54F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EB73E81C245B83BD0054A54F;
+					};
+					EB73E83E245B83BE0054A54F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EB73E81C245B83BD0054A54F;
+					};
+				};
+			};
+			buildConfigurationList = EB73E818245B83BD0054A54F /* Build configuration list for PBXProject "CDDMAApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB73E814245B83BD0054A54F;
+			productRefGroup = EB73E81E245B83BD0054A54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB73E81C245B83BD0054A54F /* CDDMAApp */,
+				EB73E833245B83BE0054A54F /* CDDMAAppTests */,
+				EB73E83E245B83BE0054A54F /* CDDMAAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB73E81B245B83BD0054A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB73E82E245B83BE0054A54F /* LaunchScreen.storyboard in Resources */,
+				EB73E82B245B83BE0054A54F /* Assets.xcassets in Resources */,
+				EB73E826245B83BD0054A54F /* Main.storyboard in Resources */,
+				EB49555A245B8B41003C52AF /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E832245B83BE0054A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E83D245B83BE0054A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB73E819245B83BD0054A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB495562245BA0CB003C52AF /* VehicleList.swift in Sources */,
+				EB49555C245B9138003C52AF /* Vehicle.swift in Sources */,
+				EB73E823245B83BD0054A54F /* ViewController.swift in Sources */,
+				EB499ABA245C98A80076E26C /* DataCell.swift in Sources */,
+				EB73E829245B83BD0054A54F /* CDDMAApp.xcdatamodeld in Sources */,
+				EB49555E245B93F1003C52AF /* DataProcessor.swift in Sources */,
+				EB89138324624E350024D661 /* FormViewController.swift in Sources */,
+				EB73E821245B83BD0054A54F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E830245B83BE0054A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB73E839245B83BE0054A54F /* CDDMAAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73E83B245B83BE0054A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB73E844245B83BE0054A54F /* CDDMAAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB73E836245B83BE0054A54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB73E81C245B83BD0054A54F /* CDDMAApp */;
+			targetProxy = EB73E835245B83BE0054A54F /* PBXContainerItemProxy */;
+		};
+		EB73E841245B83BE0054A54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB73E81C245B83BD0054A54F /* CDDMAApp */;
+			targetProxy = EB73E840245B83BE0054A54F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB73E824245B83BD0054A54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB73E825245B83BD0054A54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB73E82C245B83BE0054A54F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB73E82D245B83BE0054A54F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB73E846245B83BE0054A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB73E847245B83BE0054A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB73E849245B83BE0054A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB73E84A245B83BE0054A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB73E84C245B83BE0054A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDDMAApp.app/CDDMAApp";
+			};
+			name = Debug;
+		};
+		EB73E84D245B83BE0054A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDDMAApp.app/CDDMAApp";
+			};
+			name = Release;
+		};
+		EB73E84F245B83BE0054A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDDMAApp;
+			};
+			name = Debug;
+		};
+		EB73E850245B83BE0054A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CDDMAAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.CDDMAAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDDMAApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB73E818245B83BD0054A54F /* Build configuration list for PBXProject "CDDMAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB73E846245B83BE0054A54F /* Debug */,
+				EB73E847245B83BE0054A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB73E848245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB73E849245B83BE0054A54F /* Debug */,
+				EB73E84A245B83BE0054A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB73E84B245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB73E84C245B83BE0054A54F /* Debug */,
+				EB73E84D245B83BE0054A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB73E84E245B83BE0054A54F /* Build configuration list for PBXNativeTarget "CDDMAAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB73E84F245B83BE0054A54F /* Debug */,
+				EB73E850245B83BE0054A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB73E827245B83BD0054A54F /* CDDMAApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB73E828245B83BD0054A54F /* CDDMAApp.xcdatamodel */,
+			);
+			currentVersion = EB73E828245B83BD0054A54F /* CDDMAApp.xcdatamodel */;
+			path = CDDMAApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB73E815245B83BD0054A54F /* Project object */;
+}
